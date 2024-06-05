@@ -172,7 +172,7 @@ body #app {
 }
 
 :root {
-  --main-color: #1e7d30;
+  --main-color: #ce7a58;
 }
 a,
 .green {
@@ -336,12 +336,12 @@ table td {
 }
 
 .input-form input {
-  padding-top: 0px !important;
+  padding-top: 5px !important;
   min-height: 0px !important;
 }
 
 .input-form.v-autocomplete {
-  padding-top: 0px !important;
+  padding-top: 5px !important;
   min-height: 0px !important;
 }
 
@@ -439,17 +439,17 @@ table td {
 }
 
 .input-form:not(.v-textarea):not(.v-autocomplete) .v-field {
-  height: 32px;
+  height: 40px;
 }
 
 .input-form .v-input__control,
 .input-form .v-input__slot {
-  min-height: 32px !important;
+  min-height: 40px !important;
 }
 
 .input-form:not(.v-textarea):not(.v-autocomplete),
 .input-form:not(.v-textarea):not(.v-autocomplete) .v-input__slot {
-  height: 32px;
+  height: 40px;
 }
 
 .input-form .v-input__details {
@@ -463,17 +463,17 @@ table td {
 .height-auto.input-form:not(.v-textarea),
 .height-auto.input-form:not(.v-textarea) .v-input__slot {
   height: auto !important;
-  min-height: 32px !important;
+  min-height: 40px !important;
 }
 
 .autocomplete-form-input,
 .autocomplete-form-input .v-select__slot {
-  height: 32px;
+  height: 40px;
 }
 
 .autocomplete-form-input .v-input__control,
 .autocomplete-form-input .v-input__slot {
-  min-height: 32px !important;
+  min-height: 40px !important;
 }
 .autocomplete-form-input .v-input__control .v-field__field {
   align-items: center;
@@ -484,11 +484,10 @@ table td {
 }
 
 .v-menu .v-list-item:hover {
-  background-color: hsla(160, 100%, 37%, 0.2);
+  background-color: hsla(34, 83%, 41%, 0.2);
 }
 
 .v-menu .v-list-item--active {
-  background-color: hsla(160, 100%, 37%, 0.2);
   color: var(--main-color);
 }
 
@@ -1051,7 +1050,7 @@ button.v-btn--size-small:not(.v-btn--variant-outlined) .v-icon {
   width: 0;
   height: 0;
   border: none;
-  border-bottom: 32px solid var(--main-color);
+  border-bottom: 40px solid var(--main-color);
   border-right: 20px solid transparent;
   border-radius: 0px !important;
   opacity: 1;
@@ -1066,7 +1065,7 @@ button.v-btn--size-small:not(.v-btn--variant-outlined) .v-icon {
   width: 0;
   height: 0;
   border: none;
-  border-top: 32px solid var(--main-color);
+  border-top: 40px solid var(--main-color);
   border-left: 20px solid transparent;
   opacity: 1;
 }
@@ -1079,7 +1078,7 @@ button.v-btn--size-small:not(.v-btn--variant-outlined) .v-icon {
   width: 0;
   height: 0;
   border: none;
-  border-bottom: 32px solid #e3e3e3;
+  border-bottom: 40px solid #e3e3e3;
   border-right: 20px solid transparent;
   opacity: 1;
   margin-right: 5px;
@@ -1097,7 +1096,7 @@ button.v-btn--size-small:not(.v-btn--variant-outlined) .v-icon {
   width: 0;
   height: 0;
   border: none;
-  border-top: 32px solid #e3e3e3;
+  border-top: 40px solid #e3e3e3;
   border-left: 20px solid transparent;
   opacity: 1;
 }
@@ -1224,7 +1223,7 @@ button.v-btn--size-small:not(.v-btn--variant-outlined) .v-icon {
 }
 
 .dp__input_wrap input {
-  height: 32px;
+  height: 40px;
 }
 
 .dp__input {
